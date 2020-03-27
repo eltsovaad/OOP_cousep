@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainMenu">
+  <grid id="27dc6" binding="rootPanel" layout-manager="GridLayoutManager" row-count="9" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="79" y="20" width="617" height="448"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="8806b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Пациенты"/>
+        </properties>
+      </component>
+      <component id="8a986" class="javax.swing.JButton" binding="addPatButton">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Добавить пациента"/>
+        </properties>
+      </component>
+      <component id="17ed8" class="javax.swing.JTextField" binding="patInfoTextField">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="1" indent="1" use-parent-layout="false">
+            <preferred-size width="233" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="fd4f0" class="javax.swing.JComboBox" binding="patSearchComboBox">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="182" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="73ef7" class="javax.swing.JButton" binding="searchPatButton">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Поиск"/>
+        </properties>
+      </component>
+      <component id="921e7" class="javax.swing.JButton" binding="addVisitButtonQ">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Новая запись к врачу"/>
+        </properties>
+      </component>
+      <component id="519bf" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false">
+            <preferred-size width="64" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Врачи"/>
+        </properties>
+      </component>
+      <component id="357b5" class="javax.swing.JButton" binding="addDocButton">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Добавить врача"/>
+        </properties>
+      </component>
+      <component id="4834b" class="javax.swing.JTextField" binding="docInfoTextField">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="1" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="247ad" class="javax.swing.JComboBox" binding="docSearchComboBox">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="b8006" class="javax.swing.JButton" binding="searchDocButton">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Поиск"/>
+        </properties>
+      </component>
+      <component id="8885c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Статистика"/>
+        </properties>
+      </component>
+      <component id="a2061" class="javax.swing.JButton" binding="statsSearch">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Показать"/>
+        </properties>
+      </component>
+      <component id="99feb" class="javax.swing.JComboBox" binding="statsTypeComboBox">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="1" use-parent-layout="false">
+            <preferred-size width="64" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="4d335" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Быстрый доступ"/>
+        </properties>
+      </component>
+      <component id="4ba7a" class="javax.swing.JButton" binding="helpButton">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Помощь"/>
+        </properties>
+      </component>
+      <component id="cb15e" class="javax.swing.JButton" binding="allVisitsButton">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Все записи к врачам"/>
+        </properties>
+      </component>
+      <hspacer id="69b06">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="4" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="5f8b5" class="javax.swing.JComboBox" binding="statsChoiceComboBox">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+    </children>
+  </grid>
+</form>
